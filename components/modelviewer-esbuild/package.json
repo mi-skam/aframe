@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "esbuild script.js --outfile=bundle.js --bundle --minify",
+    "watch": "esbuild script.js --outfile=bundle.js --bundle --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.13.14"
+  },
+  "dependencies": {
+    "aframe": "^1.2.0"
+  }
+}
